@@ -1,0 +1,107 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    margin: 44px 0 144px 76px;/*Define espaçamento, dos lnks no site, 
+    esquema relogio*/
+}
+.link-header{
+    font-weight: 600;*/*Grossura da fonte*/
+    font-size: 24px;/*Tamanho da fonte*/
+    line-height: 29px;/*altura da linha*/
+    color: #989d9c;
+    cursor: pointer;/*Passando o mouse no link vira maozinha*/
+    margin-right: 23px;/*cria espaço do lado direito do link*/
+}
+.button-header{
+    background: #665ae1;/*define a cor do botão*/
+    border-radius: 20.5px;/*Arredonda as laterais do botão*/
+    width: 130px;/*Define a largura do botão*/
+    height: 41px;/*Define a Altura do botão*/
+    border: none;/*Border define a borda, none borda 0*/
+    font-weight: 600;/*Define a grossura da fonte*/
+    font-size: 24px;/*Define o tamanho da fonte*/
+    line-height: 29px;/*Define altura da linha*/
+    color: #ffffff;/*Define a cor da fonte*/
+    cursor: pointer;/*Ao passar o mouse no link vira uma maozinha*/
+}
+.logo-image{
+    width: 568px;/*Define a largura da imagem*/
+    height: 500px;/*Define a altura da imagem*/
+    margin-left: 125px;
+    display: inline-block;
+}
+section{
+    display: inline-block;
+    margin-left: 86px;/*Cria um espaço do lado esquerdo de section de 86px*/
+}
+h1{
+    font-weight: 900;/*Define a grossura da fonte*/
+    font-size: 100px;/*Define o tamnaho da fonte*/
+}
+h2{
+    font-weight: 500px;/*Define a grossura da fonte*/
+    font-size: 58px;/*Define a tamanho da fonte*/
+    line-height: 71px;/*Define altura da linha*/
+    color: #515151;/*Cor do texto h2*/
+}
+p{
+    font-weight: 400px;/*Define a grossura do texto */
+    font-size: 24px;/*Define o tamanho do texto*/
+    line-height: 29px;/*Define altura da linha*/
+    color: #848484;/*Cor do texto*/
+    width: 515px;/*Define a largura que o texto estara na pagina*/
+    margin-top: 32px;/*Define a margem superior*/
+    margin-bottom: 65px;/*Define a espesura da margem*/ 
+}
+
+.button-main{
+    background: #adff00;/*Define a cor do botão*/
+    border-radius: 30px;/*Arredonda as bordas do botão*/
+    width: 239px;/*Define a largura do botão*/
+    height: 64px;/*Define Altura do botão*/
+    border: none;/*Define a borda*/
+    cursor: pointer;/*Passando mouse no botão, vira uma maozinha*/
+    filter: drop-shadow(0px 4px 4px rgba(0,-0,-0.25));/*Define a sombra do botão*/
+    font-weight: 700;/*Define a grossura da fonte*/
+    font-size: 28px;/*Define o tamanho da fonte*/
+    line-height: 34px;/*Define altura da linha*/
+    color: black;/*Define a cor do Texto*/
+}
+@media (max-width: 900px) {
+    main{
+        height: 100vh;
+        width: 100vw;
+        text-align: center;
+    }
+    img {
+    width: 200px;
+    height: 150px;
+    margin: 200px 0 100px 0 ;
+           }
+    header {
+        display: none;
+    }
+    h1{
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        line-height: 60px;
+
+    }
+    h2{
+        font-size: 30px;
+        line-height: 36px;
+        width: auto;
+        margin: 15px;
+    }
+    p{
+        display: none;
+    }
+
+
+
+}
